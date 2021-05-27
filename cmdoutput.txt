@@ -1,0 +1,45 @@
+config webfilter urlfilter 
+edit 1
+config entries
+edit 0
+set url .google.com.sg
+set type simple
+set action allow
+next
+end
+edit 0
+set url .ruggedap.com
+set type simple
+set action allow
+next
+end
+edit 0
+set url .cloudsink.net
+set type simple
+set action allow
+next
+end
+edit 0
+set url .crowdstrike.com
+set type simple
+set action allow
+next
+end
+edit 0
+set url 13.56.137.239
+set type simple
+set action allow
+next
+end
+edit 0
+set url 13.57.54.63
+set type simple
+set action allow
+next
+end
+edit 0
+set url 50.18.194.39
+set type simple
+set action allow
+next
+end
